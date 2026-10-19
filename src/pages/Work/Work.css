@@ -1,0 +1,34 @@
+.work-intro {
+  display: flex;
+  flex-direction: column;
+  gap: 28px;
+}
+
+.work-list {
+  padding-top: clamp(56px, 7vw, 96px);
+}
+
+.work-rows {
+  display: flex;
+  flex-direction: column;
+  gap: clamp(80px, 10vw, 140px);
+}
+
+.work-more {
+  border-top: 1px solid var(--line);
+  padding: 56px 0;
+}
+
+.work-more-inner {
+  display: flex;
+  flex-wrap: wrap;
+  align-items: center;
+  justify-content: space-between;
+  gap: 20px;
+}
+
+.work-more-inner p {
+  font-size: var(--text-lead);
+  font-weight: 500;
+  letter-spacing: -0.01em;
+}

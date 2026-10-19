@@ -1,0 +1,46 @@
+@import url("https://fonts.googleapis.com/css2?family=DM+Sans:opsz,wght@9..40,400..700&family=IBM+Plex+Mono:wght@400;500&display=swap");
+
+:root {
+  /* Colour */
+  --bg: #fafaf8;
+  --surface: #ffffff;
+  --ink: #161616;
+  --muted: #5a5852;
+  --line: #e4e2dc;
+  --line-strong: #cfccc4;
+  --accent: #2340d9;
+  --accent-dark: #1a2fa8;
+  --on-accent: #ffffff;
+
+  /* Soft tints used behind product visuals */
+  --tint-blue: #e9ecfb;
+  --tint-violet: #efe9fa;
+  --tint-green: #e4f0e8;
+  --tint-yellow: #fbf1cf;
+
+  /* Type */
+  --font-sans: "DM Sans", system-ui, -apple-system, "Segoe UI", sans-serif;
+  --font-mono: "IBM Plex Mono", ui-monospace, monospace;
+
+  --text-display: clamp(3rem, 8.4vw, 7.25rem);
+  --text-h1: clamp(2.6rem, 6vw, 4.75rem);
+  --text-h2: clamp(2rem, 4.2vw, 3.5rem);
+  --text-h3: clamp(1.35rem, 2vw, 1.6rem);
+  --text-lead: clamp(1.15rem, 1.6vw, 1.35rem);
+  --text-body: 1.0625rem;
+  --text-small: 0.9375rem;
+
+  /* Layout */
+  --max-width: 1240px;
+  --gutter: 40px;
+  --section: clamp(80px, 11vw, 150px);
+  --radius-lg: 22px;
+  --radius-md: 14px;
+  --radius-sm: 8px;
+}
+
+@media (max-width: 700px) {
+  :root {
+    --gutter: 20px;
+  }
+}
